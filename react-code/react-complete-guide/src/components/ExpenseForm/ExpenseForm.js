@@ -38,7 +38,7 @@ function ExpenseForm(props) {
         const expenseData = {
             title: inputValue.title,
             amount: inputValue.amount,
-            data: new Date(inputValue.date).toLocaleDateString()
+            date: new Date(inputValue.date)
         }
         props.onSaveExpenseData(expenseData);
         setInputValue({
