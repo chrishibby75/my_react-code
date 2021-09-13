@@ -34,7 +34,7 @@ function AddUser(props) {
         setEnteredValues({
             username: "",
             age: ""
-        })
+        });
     };
 
     function handleChange(event) {
@@ -46,6 +46,10 @@ function AddUser(props) {
 
     const errorHandler = () => {
         setError(null);
+        setEnteredValues({
+            username: "",
+            age: ""
+        });
     };
 
     return (
