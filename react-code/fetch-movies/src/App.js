@@ -44,7 +44,7 @@ const App = () => {
   //   fetch("https://swapi.dev/api/films/").then(response => {
   //     return response.json();
   //   }).then(data => {
-  //     const transformedMovies = data.results.map(movieData => {
+  //     const transformedMovies = data.map(movieData => {
   //       return {
   //         id: movieData.episode_id,
   //         title: movieData.title,
